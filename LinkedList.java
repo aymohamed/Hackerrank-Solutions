@@ -8,8 +8,13 @@ class Node {
 
 
 
-// These methods shown below are "method-only" submission.
-// You only need to complete these methods.
+/*These methods shown below are "method-only" submission.
+You only need to complete these methods.
+In order to test these methods, I would recommend that
+you create your own main method and comment out the other
+methods that are not in use!
+*/
+
 
 
 
