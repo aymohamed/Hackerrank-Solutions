@@ -1,22 +1,33 @@
 /*
-  Insert Node at the beginning of a linked list
-  head pointer input could be NULL as well for empty list
-  Node is defined as
-  class Node {
-     int data;
-     Node next;
-  }
+Node is defined as
+class Node {
+   int data;
+   Node next;
+}
 */
+
+
+
 // These methods shown below are "method-only" submission.
 // You only need to complete these methods.
 
 
+
+/*
+  Insert Node at the beginning of a linked list
+  head pointer input could be NULL as well for empty list
+
+*/
+
 Node Insert(Node head,int x) {
+
     Node mynode = new Node();
     mynode.data = x;
     mynode.next = head;
     return mynode;
 }
+
+
 
 
 
@@ -48,7 +59,7 @@ Node Insert(Node head,int data) {
 
 
 /*
-  Print elements of a linked list
+  Prints elements of a linked list
   head pointer input could be NULL as well for empty list
 
 */
